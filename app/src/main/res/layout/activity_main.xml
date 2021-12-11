@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/fond">
+
+    <include
+        layout="@layout/toolbar" />
+
+    <ImageView
+        android:id="@+id/main_imageview_demande"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/demande"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/image_demande" />
+
+    <Button
+        android:id="@+id/main_button_demande"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/faire_une_demande" />
+
+    <ImageView
+        android:id="@+id/main_imageview_encours"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/en_cours"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/en_cours" />
+
+    <Button
+        android:id="@+id/main_button_encours"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/demandes_en_cours"/>
+
+    <ImageView
+        android:id="@+id/main_imageview_termine"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/termine"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/traitement_demande_termine" />
+
+    <Button
+        android:id="@+id/main_button_termine"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/demandes_d_j_prises_en_charge" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/main_textview_infos"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/hello_android"-->
+<!--        android:textSize="20sp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/main_button_demander"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:text="@string/demander" />-->
+
+</LinearLayout>
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity">-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hello Android!"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

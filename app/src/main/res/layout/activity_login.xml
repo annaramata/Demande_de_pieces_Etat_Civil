@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/fond" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/login_imageview_logosn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/logo_sn"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/logo_du_senegal" />
+
+        <ImageView
+            android:id="@+id/login_imageview_logomin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/logo_du_ministere"
+            android:src="@drawable/logo_ministere" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/login_imageview_logo"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_dpec"
+        android:contentDescription="@string/logo_appli" />
+
+    <EditText
+        android:id="@+id/login_edittext_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        android:hint="@string/email_or_username"
+        android:autofillHints="username"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/login_edittext_motdepasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        android:hint="@string/mot_de_passe"
+        android:autofillHints="password"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/login_button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:text="@string/me_connecter" />
+
+    <TextView
+        android:id="@+id/login_textview_nocompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="@string/vous_n_avez_pas_de_compte" />
+
+</LinearLayout>
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".LoginActivity">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

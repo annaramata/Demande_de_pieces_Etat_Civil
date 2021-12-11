@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "913512604612",
+    "project_id": "demande-de-pieces-etat-c-6ef64",
+    "storage_bucket": "demande-de-pieces-etat-c-6ef64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913512604612:android:6627d64a376e3908f3fa91",
+        "android_client_info": {
+          "package_name": "com.example.demandedepiecesetatcivil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913512604612-s8b097a7ucs47n5qp759fn2380q1bu1k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrxqle7df0fBXdGxUQKGNzC9YwCPcbD4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913512604612-s8b097a7ucs47n5qp759fn2380q1bu1k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
