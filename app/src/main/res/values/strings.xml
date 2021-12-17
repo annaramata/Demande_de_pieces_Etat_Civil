@@ -28,7 +28,7 @@
     <string name="envoyer_la_r_ponse_par_mail_galement">Envoyer la réponse par mail également</string>
     <string name="extrait_de_naissance">Extrait de naissance</string>
     <string name="certificat_de_domicile">Certificat de domicile</string>
-    <string name="certficat_de_residence">Certficat de residence</string>
+    <string name="certficat_de_residence">Certficat de résidence</string>
     <string name="carte_nationale_d_identit">Carte nationale d\'identité</string>
     <string name="casier_judiciaire">Casier judiciaire</string>
     <string name="certificat_de_bonne_vie_et_moeurs">Certificat de bonne vie et moeurs</string>
@@ -37,7 +37,7 @@
     <string name="certificat_de_mariage">Certificat de mariage</string>
     <string name="certificat_de_non_inscription">Certificat de non inscription</string>
     <string name="certificat_de_divorce">Certificat de divorce</string>
-    <string name="bulletin_de_deces">Bulletin de deces</string>
+    <string name="bulletin_de_deces">Bulletin de décès</string>
     <string name="jugement_d_h_r_dit">Jugement d\'hérédité</string>
     <string name="certificat_de_perte">Certificat de perte</string>
 </resources>

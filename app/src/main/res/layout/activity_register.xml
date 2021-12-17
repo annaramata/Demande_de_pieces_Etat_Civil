@@ -38,7 +38,7 @@
     </RelativeLayout>
 
     <ImageView
-        android:id="@+id/login_imageview_logo"
+        android:id="@+id/register_imageview_logo"
         android:layout_width="120dp"
         android:layout_height="150dp"
         android:layout_marginTop="20dp"
@@ -47,7 +47,7 @@
         android:contentDescription="@string/logo_appli" />
 
     <EditText
-        android:id="@+id/login_edittext_prenom"
+        android:id="@+id/register_edittext_prenom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -61,7 +61,7 @@
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/login_edittext_nom"
+        android:id="@+id/register_edittext_nom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -75,7 +75,7 @@
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/login_edittext_datedenaissance"
+        android:id="@+id/register_edittext_datedenaissance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -89,7 +89,7 @@
         android:inputType="date" />
 
     <EditText
-        android:id="@+id/login_edittext_lieudenaissance"
+        android:id="@+id/register_edittext_lieudenaissance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -117,7 +117,7 @@
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/login_edittext_motdepasse"
+        android:id="@+id/register_edittext_motdepasse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
